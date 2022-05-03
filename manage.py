@@ -5,6 +5,7 @@ import sys
 
 
 def main():
+    # pylint: disable=import-outside-toplevel
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
