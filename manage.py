@@ -14,6 +14,7 @@ def main():
             "forget to activate a virtual environment?"
         ) from exc
 
+    # pylint: disable=pointless-string-statement
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 
