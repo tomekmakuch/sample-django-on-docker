@@ -5,7 +5,7 @@ Pages views
 from django.http import HttpResponse
 
 
-def home_page_view(request):
+def home_page_view():
     """
     Home page views
     """
